@@ -294,11 +294,11 @@
                                                             <div class="form-row">
                                                                 <div class="form-group col-md-7">
                                                                 <label for="inputCity">Passport</label>
-                                                                <input type="file" name="passport" id="image">
+                                                                <input type="file" name="passport" id="image" value="{{$student->passport}}">
                                                                 </div>
                                                                 <div class="form-group col-md-5">
                                                                     <div id="imagePreview">
-                                                                    <img class="image-preview" src="" alt="Passport Preview"id="passportPreview" width="200px">
+                                                                    <img class="image-preview" src="/uploads/{{$student->passport}}" alt="Passport Preview"id="passportPreview" width="200px">
                                                                     
                                                                     </div>
                                                                 </div>                                          
@@ -364,8 +364,8 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
+                <div class=            <footer class="sticky-footer bg-white">
+"container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Dayepsoft ltd 2021</span>
                     </div>
